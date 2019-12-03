@@ -8,7 +8,7 @@
     "website": "http://flyweb.com.ua"
   },
   "description": "Pixel Perfect with Bootstrap 4",
-  "homepage": "https://github.com",
+  "homepage": "https://ant1758.github.io/store-front-page",
   "license": "MIT",
   "scripts": {
     "build": "webpack",
