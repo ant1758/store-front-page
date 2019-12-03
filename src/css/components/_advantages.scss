@@ -1,0 +1,41 @@
+
+.advantages {
+  background-color: rgba( 255, 255, 255, 0.8);
+  position: relative;
+  top: -318px;
+  z-index: 2;
+  height: 320px;
+  max-height: 320px;
+
+  .advantage-block{
+    text-align: center;
+    padding: 20px 0px 0px;
+    overflow: hidden;
+  }
+  .advantage-block:hover{
+    cursor: pointer;
+    transition: all .5s;
+  }
+
+  .advantage-block img{
+    max-width: 100%;
+    width: 98px;
+    height: 98px;
+  }
+
+  .advantage-block h2 {
+    font-family: $font-pnb;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 15px 0 10px;
+  }
+
+  .advantage-block p {
+    font-family: $font-pnr;
+    font-size: 16px;
+    overflow: hidden;
+    line-height: 1.15;
+    letter-spacing: -0.5px;
+  }
+
+}

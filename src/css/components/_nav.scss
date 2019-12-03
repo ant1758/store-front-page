@@ -1,0 +1,39 @@
+
+.bg-dark{
+  background-color: rgba(0,0,0,0.6)!important;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: #fff;
+}
+
+.navbar{
+  height: 35px;
+  z-index: 2;
+}
+
+.navbar .nav-item{
+  font-size: 14px;
+  font-family: $font-pnr;
+  color: $color-base-w;
+  text-transform: uppercase;
+  text-align: center;
+  transition: all .5s;
+}
+
+.navbar .nav-item.active {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: $font-pnb;
+}
+
+.navbar .nav-item::before {
+  content: url(../img/nav-line.png);
+  position: relative;
+  top: 3px;
+  left: -85%;
+}
+
+.navbar .nav-item:nth-child(1)::before {
+  display: none;
+}

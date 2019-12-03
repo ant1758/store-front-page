@@ -1,0 +1,333 @@
+@media (min-width: 1930px) {
+  .carousel-item::after {
+    content: url(../img/slider-shadow-left-1930.png);
+    left: -500px;
+  }
+}
+
+@media (max-width: 1439.98px){
+
+  .carousel-item::after {
+    left: -261px;
+  }
+
+}
+
+@media (max-width: 1244.98px){
+
+  //slider
+  .carousel-item{
+    height: 700px;
+    max-height: 700px;
+    width: 100%;
+  }
+
+  .carousel-caption h1 {
+    top: 25px;
+    left: 25px;
+    font-size: 70px;
+    height: 105px;
+    width: 613px;
+    max-height: 105px;
+    padding-left: 43px;
+    background: url(../img/slider-text-what-container-1245.png) no-repeat 0px 15px;
+  }
+
+  .carousel-caption::before {
+    top: 61px;
+    left: 10px;
+    content: url(../img/slider-text-border-left-1245.png);
+  }
+
+  .carousel-caption .slider-for-bg {
+    top: 11px;
+    left: 10px;
+  }
+
+  .carousel-caption .slider-about::before {
+    top: 192px;
+    left: 58px;
+  }
+
+  .carousel-caption .price-green {
+    top: -53px;
+    left: 315px;
+  }
+
+  .carousel-caption .slider-text {
+    top: -55px;
+    left: 20px;
+    font-size: 18px;
+  }
+
+  .carousel-caption .slider-btn {
+    top: -35px;
+    left: 20px;
+    font-size: 20px;
+  }
+
+  .controls-container .controls {
+    top: 370px;
+    left: 20px;
+  }
+
+  //advatages
+  .advantages .advantage-block h2 {
+    font-size: 18px;
+    margin: 10px 0 10px;
+  }
+
+  .advantages .advantage-block p {
+    font-size: 15px;
+  }
+
+}
+
+@media (max-width: 1023.98px) {
+  .carousel-item img {
+    bottom: unset;
+  }
+}
+
+@media (max-width: 991.98px){
+
+  //nav
+  .navbar .navbar-brand.logo{
+    color: $color-logo;
+    padding: 0;
+    margin-right: 15px;
+  }
+
+  .navbar.navbar-dark .navbar-toggler {
+    color: $color-base-w;
+    border-color: $color-base-w;
+    outline: none;
+    font-family: $font-ibi;
+    font-size: 20px;
+    padding: 7px 15px;
+    margin-left: 15px;
+    text-transform: uppercase;
+    background-image: linear-gradient( 90deg, rgb(255,79,88) 0%, rgb(253,112,72) 100%);
+  }
+
+  .navbar{
+    border-bottom: 1px solid #ccc;
+    padding: 16px 15px 8px;
+  }
+
+  .navbar-collapse{
+    background: #f7f7f7;
+  }
+
+  .navbar .phone{
+    padding: 0;
+    font-size: 25px;
+  }
+
+  .navbar-nav{
+    padding: 30px 15px 15px 15px;
+  }
+
+  .navbar-nav .phone{
+    padding: 30px 0 0 0;
+    font-size: 25px;
+  }
+
+  .navbar .callback{
+    margin: 30px 0 15px 0;
+    font-size: 20px;
+    padding: 15px 50px;
+    width: auto;
+    height: auto;
+  }
+
+  .navbar.bg-dark{
+    background-color: #fff!important;
+  }
+
+  .navbar-dark .navbar-nav .nav-link{
+    color: $color-base-b;
+    font-size: 18px;
+    font-family: $font-pnr;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all .5s;
+  }
+
+  .navbar-dark .navbar-nav .nav-link.active {
+    color: $color-logo;
+    font-size: 18px;
+  }
+
+  .navbar .nav-item{
+    font-size: 14px;
+    font-family: $font-pnr;
+    color: $color-base-w;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all .5s;
+  }
+
+  .navbar .nav-item.active {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: $font-pnb;
+  }
+
+  //slider
+  .slider {
+    top: 0;
+  }
+
+  .carousel-item {
+    height: 400px;
+    max-height: 400px;
+    width: 100%;
+  }
+
+  .carousel-item::after {
+    left: -220px;
+  }
+
+  .carousel-item::after {
+    top: -3px;
+  }
+
+  .controls-container .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+  }
+
+  .controls-container .controls {
+    list-style: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+  }
+
+  .carousel-caption h1 {
+    top: 30px;
+    left: 65px;
+    font-size: 50px;
+    height: 80px;
+    padding-left: 60px;
+    background: url(../img/slider-text-what-container-992.png) no-repeat 0px 15px;
+  }
+
+  .carousel-caption::before {
+    top: 66px;
+    left: 60px;
+    content: url(../img/slider-text-border-left-992.png);
+  }
+  .carousel-caption .slider-for-bg {
+    top: 14px;
+    left: 58px;
+    font-size: 30px;
+    height: 68px;
+  }
+
+  .carousel-caption .slider-about::before {
+    top: 160px;
+    left: 108px;
+  }
+
+  .carousel-caption .price {
+    font-size: 35px;
+  }
+
+  .carousel-caption .price-green {
+    left: 360px;
+    height: 60px;
+    padding-left: 25px;
+    top: -36px;
+  }
+
+  .carousel-caption .slider-text {
+    top: -30px;
+    left: 95px;
+    font-size: 16px;
+  }
+
+  .carousel-caption .slider-btn {
+    top: -10px;
+    left: 95px;
+    font-size: 19px;
+  }
+
+  //advantages
+  .advantages {
+    top: 0;
+  }
+
+  .advantages .advantage-block img {
+    width: 78px;
+    height: 78px;
+  }
+
+  .advantages .advantage-block h2 {
+    height: 40px;
+    font-size: 19px;
+  }
+
+  .advantages .advantage-block p{
+    font-size: 14px;
+  }
+
+}
+
+@media (min-width: 992px) {
+  @import "components/nav";
+}
+
+@media (max-width: 767.98px){
+
+  .carousel-item{
+    height: 300px;
+    max-height: 300px;
+  }
+
+  .advantages .advantage-block h2 {
+    height: auto;
+  }
+
+  .controls-container .controls {
+    top: 270px;
+    left: -10px;
+  }
+  .carousel-item::after{
+    display: none;
+  }
+}
+
+@media (max-width: 575.98px) {
+
+  .advantages .advantage-block h2 {
+    height: 40px;
+    padding: 0 7px;
+  }
+  .navbar .callback {
+    width: 100%;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 479.98px) {
+
+  .advantages .advantage-block h2 {
+    padding: 0;
+  }
+
+}

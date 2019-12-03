@@ -1,0 +1,25 @@
+@import "~bootstrap/scss/bootstrap";
+@import "components/fonts";
+
+//vars
+$font-pnr: 'Proxima Nova Regular', sans-serif;
+$font-pnb: 'Proxima Nova Bold', sans-serif;
+$font-ir: 'Intro Regular', sans-serif;
+$font-ib: 'Intro Black', sans-serif;
+$font-ibi: 'Intro Black Italic', sans-serif;
+$color-base-w: white;
+$color-base-b: black;
+$color-logo: #040404;
+
+@import "components/header";
+@import "components/slider";
+@import "components/advantages";
+@import "components/medias";
+
+
+
+
+
+
+
+
